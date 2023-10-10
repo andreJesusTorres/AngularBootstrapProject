@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular: Guía de Inicio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Instalación de Angular</h5>
+                        <p class="card-text">Para comenzar con Angular, primero debes instalar Angular CLI (Command Line Interface) globalmente en tu sistema. Asegúrate de tener Node.js instalado. Abre una terminal y ejecuta el siguiente comando:</p>
+                        <pre class="card-text">
+npm install -g @angular/cli
+                        </pre>
+                        <p class="card-text">Luego, puedes crear un nuevo proyecto Angular usando el siguiente comando:</p>
+                        <pre class="card-text">
+ng new nombre-del-proyecto
+                        </pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Creación de Componentes en Angular</h5>
+                        <p class="card-text">En Angular, los componentes son la base de la aplicación. Puedes generar un nuevo componente con el siguiente comando:</p>
+                        <pre class="card-text">
+ng generate component nombre-del-componente
+                        </pre>
+                        <p class="card-text">Esto generará archivos relacionados con el componente, incluyendo HTML, CSS, TypeScript, y automáticamente actualizará tu archivo <code>app.module.ts</code> para registrar el componente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Comandos Básicos en Angular</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><code>ng serve</code>: Iniciar el servidor de desarrollo de Angular.</li>
+                            <li class="list-group-item"><code>ng build</code>: Compilar la aplicación Angular para producción.</li>
+                            <li class="list-group-item"><code>ng generate</code>: Generar componentes, módulos, servicios, etc.</li>
+                            <li class="list-group-item"><code>ng test</code>: Ejecutar pruebas unitarias.</li>
+                            <li class="list-group-item"><code>ng lint</code>: Analizar el código en busca de problemas de estilo y calidad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">¿Qué es Angular?</h5>
+                        <p class="card-text">Angular es un framework de desarrollo de aplicaciones web y móviles desarrollado por Google. Permite la creación de aplicaciones web dinámicas y de una sola página (SPA) de manera eficiente. Angular utiliza TypeScript como lenguaje de programación y se basa en el concepto de componentes para organizar y estructurar la aplicación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Uso del enrutamiento en Angular (Opcional)</h5>
+                        <p class="card-text">El enrutamiento en Angular permite la navegación entre diferentes vistas o componentes de la aplicación. Para habilitar el enrutamiento, puedes configurar rutas en el archivo <code>app-routing.module.ts</code> y utilizar el módulo <code>RouterModule</code> para crear enlaces y facilitar la navegación entre componentes. Esto es útil para crear aplicaciones multipágina o para dividir la aplicación en diferentes secciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
